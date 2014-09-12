@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.on-active-0 .slider-panels{
+	margin-left:0;
+}
+.on-active-1 .slider-panels{
+	margin-left:-100%;
+}
+.on-active-2 .slider-panels{
+	margin-left:-200%;
+}
+.on-active-3 .slider-panels{
+	margin-left:-300%;
+}
+.on-active-4 .slider-panels{
+	margin-left:-400%;
+}
+.on-active-5 .slider-panels{
+	margin-left:-500%;
+}

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.views-slider{
+	max-width:600px;
+	position:relative;
+}
+.slider-content{
+	overflow:hidden;
+	width:100%;
+	clear:left;
+}
+.slider-panel{
+	float:left;
+}
+.slider-panels{
+	-moz-transition:400ms ease-out 2ms;	/* Firefox 4 */
+	-webkit-transition: 400ms ease-out 2ms;	/* Safari 和 Chrome */
+	-o-transition:400ms ease-out 2ms;	/* Opera */
+	transition:400ms ease-out 2ms;
+}
+.slider-panels.on-touch{
+	-moz-transition-duration:0ms;	/* Firefox 4 */
+	-webkit-transition-duration: 0ms;	/* Safari 和 Chrome */
+	-o-transition-duration:0ms;	/* Opera */
+	transition-duration:0ms;
+}
+.slider-points{
+	position:absolute;
+	bottom:0px;
+	text-align:center;
+	height: 20px;
+    line-height: 20px;
+	width:100%;
+}
+.slider-point{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background-color:#666;
+}
+.slider-point.on-active{
+	background-color:#F60;
+}
+.slider-prev,.slider-next{
+	position:absolute;
+	width:27px;
+	height:92px;
+	top:50%;
+	margin-top:-46px;
+	background: url(images/sprites-slider-floatnav.png) no-repeat;
+	z-index:2;
+}
+.slider-prev{
+	background-position:-194px -269px;
+	left:0;
+}
+.slider-prev:hover{
+	background-position:-194px -158px;
+}
+.slider-next{
+	right:0;
+	background-position:-248px -269px;
+}
+.slider-next:hover{
+	background-position:-248px -158px;
+}
+
