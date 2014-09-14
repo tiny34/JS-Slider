@@ -13,16 +13,7 @@
 	float:left;
 }
 .slider-panels{
-	-moz-transition:400ms ease-out 2ms;	/* Firefox 4 */
-	-webkit-transition: 400ms ease-out 2ms;	/* Safari 和 Chrome */
-	-o-transition:400ms ease-out 2ms;	/* Opera */
-	transition:400ms ease-out 2ms;
-}
-.slider-panels.on-touch{
-	-moz-transition-duration:0ms;	/* Firefox 4 */
-	-webkit-transition-duration: 0ms;	/* Safari 和 Chrome */
-	-o-transition-duration:0ms;	/* Opera */
-	transition-duration:0ms;
+	transition:all 0 ease-out 0;
 }
 .slider-points{
 	position:absolute;
