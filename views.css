@@ -56,3 +56,15 @@
 	background-position:-248px -158px;
 }
 
+.demo1{
+	position:relative;
+	margin: 50px auto;
+	-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.5);
+	-moz-box-shadow:1px 1px 3px rgba(0,0,0,.5);
+	box-shadow:1px 1px 3px rgba(0,0,0,.5);
+}
+
+.demo1 .slider-panel img{
+	width:100%;
+}
+

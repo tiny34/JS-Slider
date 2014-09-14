@@ -111,7 +111,6 @@ views.Slider.prototype = {
 		var moveX = 0;
 		var $ele = this.ele;
 		var $con = $ele.find(this.class_panels);
-		var $panel = $ele.find(this.class_panel);
 		
 		$ele.bind({
 			"mouseenter":function(e){
@@ -251,9 +250,9 @@ views.Slider.prototype = {
 		var $panel = this.ele.find(this.class_panel);
 		var $active = $panel.filter("."+this.attr_active);
 		
-		if($active.prevAll().length < 1){
+		if($active.nextAll().length > 1 ){
 			$panel.first().before($panel.last());
-		}else if($active.prevAll().length > 1){
+		}else if($active.nextAll().length < 1){
 			$panel.last().after($panel.first());
 		}
 		
